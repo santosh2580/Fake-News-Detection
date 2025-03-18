@@ -21,7 +21,5 @@ Streamlit
 
 Run the Streamlit app:
 
-bash
-Copy
-Edit
+
 streamlit run app.py
