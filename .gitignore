@@ -1,0 +1,25 @@
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Saved models and datasets (large files)
+saved_models/
+*.jb  # Covers lr_model.jb, nb_model.jb, etc.
+
+# Local data files (optional - exclude if datasets are large)
+*.csv  # Add this if Fake (1).csv/True (1).csv are large
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
