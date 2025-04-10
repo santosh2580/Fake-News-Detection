@@ -63,3 +63,20 @@ To run the Streamlit app on your local machine, follow these steps:
 
 5. Access the app in your web browser at `http://localhost:8501`.
 
+6. ## Model Training
+
+1. **Data Preprocessing**:
+    - The dataset is cleaned by removing irrelevant information (stopwords, punctuation) and preparing the text for feature extraction.
+
+2. **TF-IDF Vectorization**:
+    - TF-IDF (Term Frequency-Inverse Document Frequency) is used to convert text into numerical representations for machine learning models.
+
+3. **Model Training**:
+    - Models like Logistic Regression, Naive Bayes, Random Forest, and SVM are trained on the dataset to predict whether news is real or fake.
+
+4. **Support for Unseen News**:
+    - Once the model is trained, it is capable of predicting unseen news articles that were not part of the training dataset. Users can paste any news article into the app, and the model will classify it as either real or fake.
+
+5. **Evaluation**:
+    - The models are evaluated using accuracy, F1-score, and confusion matrix to determine their performance.
+
